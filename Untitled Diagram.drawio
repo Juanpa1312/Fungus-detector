@@ -1,64 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T07:06:03.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="-0J9V1ZXKmPwoap-bbYe" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-10T06:30:33.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="VvRZ3XefAcnXcYyxKZ2R" version="14.9.5" type="github">
   <diagram id="VnIAjjwImTS4QxSXBfe2" name="Page-1">
-    <mxGraphModel dx="1237" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lWkV97RAs46y_ROvilzo-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-6" value="Enter an RGB image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-6" value="Enter an RGB image" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-7" value="Convert RGB image into Grayscale format" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-7" value="Convert RGB image into Grayscale format" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-8" value="Convert Grayscale image into Binary format" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-8" value="Convert Grayscale image into Binary format" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-9" value="Detect the base circle from the binary image grayscale image (Hough Transfrom)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-9" value="Detect the base circle from the grayscale image (Hough Transfrom)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-10" value="Extract only binary information inside the base circle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-10" value="Extract only the information inside the base circle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-11" value="If ML mode == 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-11" value="If ML mode == 1" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="410" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-12" value="Detects a fungus from Neural Network by looking for fungus patterns in the binary info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-12" value="Detects a fungus from Neural Network by looking for fungus patterns in the binary info" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="307.5" y="430" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-13" value="Detects a fungus pattern by looking for positive fungus data in the binary info ( Just for simple cases)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-13" value="Detects a fungus pattern by looking for positive fungus data in the binary info ( Just for simple cases)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="143.75" y="550" width="152.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-14" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-4" target="lWkV97RAs46y_ROvilzo-6">
+        <mxCell id="lWkV97RAs46y_ROvilzo-14" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-4" target="lWkV97RAs46y_ROvilzo-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="190" as="sourcePoint" />
             <mxPoint x="520" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-6">
+        <mxCell id="lWkV97RAs46y_ROvilzo-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="200" as="sourcePoint" />
             <mxPoint x="480" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-20" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-11" target="lWkV97RAs46y_ROvilzo-12">
+        <mxCell id="lWkV97RAs46y_ROvilzo-20" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-11" target="lWkV97RAs46y_ROvilzo-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="430" as="sourcePoint" />
             <mxPoint x="300" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-11" target="lWkV97RAs46y_ROvilzo-13">
+        <mxCell id="lWkV97RAs46y_ROvilzo-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-11" target="lWkV97RAs46y_ROvilzo-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="530" as="sourcePoint" />
             <mxPoint x="270" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-22" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lWkV97RAs46y_ROvilzo-22" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="500" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-12" target="lWkV97RAs46y_ROvilzo-22">
+        <mxCell id="lWkV97RAs46y_ROvilzo-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-12" target="lWkV97RAs46y_ROvilzo-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="440" as="sourcePoint" />
             <mxPoint x="600" y="390" as="targetPoint" />
@@ -67,7 +67,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-24" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-13" target="lWkV97RAs46y_ROvilzo-22">
+        <mxCell id="lWkV97RAs46y_ROvilzo-24" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lWkV97RAs46y_ROvilzo-13" target="lWkV97RAs46y_ROvilzo-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="600" as="sourcePoint" />
             <mxPoint x="410" y="550" as="targetPoint" />
@@ -77,29 +77,47 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-7" target="lWkV97RAs46y_ROvilzo-9">
+        <mxCell id="lWkV97RAs46y_ROvilzo-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-7" target="lWkV97RAs46y_ROvilzo-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="330" as="sourcePoint" />
             <mxPoint x="710" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-27" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-9" target="lWkV97RAs46y_ROvilzo-10">
+        <mxCell id="lWkV97RAs46y_ROvilzo-27" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-9" target="lWkV97RAs46y_ROvilzo-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="440" as="sourcePoint" />
             <mxPoint x="530" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-28" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-10" target="lWkV97RAs46y_ROvilzo-8">
+        <mxCell id="lWkV97RAs46y_ROvilzo-28" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-10" target="lWkV97RAs46y_ROvilzo-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="290" as="sourcePoint" />
             <mxPoint x="280" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWkV97RAs46y_ROvilzo-29" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lWkV97RAs46y_ROvilzo-8" target="lWkV97RAs46y_ROvilzo-11">
+        <mxCell id="lWkV97RAs46y_ROvilzo-29" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lWkV97RAs46y_ROvilzo-8" target="lWkV97RAs46y_ROvilzo-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="420" as="sourcePoint" />
             <mxPoint x="130" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tzPHsbk2ucmcR-n-CTyj-1" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tzPHsbk2ucmcR-n-CTyj-3" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tzPHsbk2ucmcR-n-CTyj-4" value="Optional step (Depends)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tzPHsbk2ucmcR-n-CTyj-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tzPHsbk2ucmcR-n-CTyj-4" target="lWkV97RAs46y_ROvilzo-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="360" as="sourcePoint" />
+            <mxPoint x="130" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tzPHsbk2ucmcR-n-CTyj-6" value="ML mode means Machine Learning mode, if its value is 1 is on, otherwise is off" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
